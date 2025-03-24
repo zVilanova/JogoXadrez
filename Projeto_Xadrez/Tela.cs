@@ -1,5 +1,6 @@
 ﻿using System;
 using tabuleiro;
+
 namespace Projeto_Xadrez
 {
     internal class Tela
