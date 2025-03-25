@@ -1,4 +1,5 @@
-﻿using tabuleiro;
+﻿using xadrez.pecas;
+using tabuleiro;
 using tabuleiro.exceptions;
 
 namespace xadrez
