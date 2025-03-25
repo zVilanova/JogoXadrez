@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using tabuleiro;
+﻿using tabuleiro;
 using xadrez;
 
 namespace Projeto_Xadrez
@@ -16,6 +14,10 @@ namespace Projeto_Xadrez
             Console.WriteLine();
             Console.WriteLine("Turno: " + partida.Turno);
             Console.WriteLine("Aguardando jogada: " + partida.JogadorAtual);
+            if (partida.Xeque) 
+            {
+                Console.WriteLine("XEQUE!");
+            }
         }
 
         public static void ImprimirPecasCapturadas(PartidaDeXadrez partida)
