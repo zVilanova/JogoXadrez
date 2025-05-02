@@ -1,4 +1,4 @@
-#Chess Game in C# ♟️
+# Chess Game in C# ♟️
 
 ## Description
 This project is a chess game developed in C# as part of the Object-Oriented Programming course by Professor Nelio Alves. It represents my learning and application of fundamental concepts of Object-Oriented Programming (OOP), including encapsulation, inheritance, polymorphism, and abstraction.
