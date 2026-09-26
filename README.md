@@ -1,25 +1,45 @@
-## Chess Game (Console Application)
+# ♟️ Chess Game — Console Application
 
-This project is a console-based chess game developed in C#, created as part of a study on Object-Oriented Programming (OOP). The application simulates a complete chess match, allowing two players to interact through the terminal, following the official rules of chess.
+A fully functional chess game built in C#, developed as a hands-on study of Object-Oriented Programming (OOP). The application simulates a complete match between two players directly in the terminal, enforcing the official rules of chess from start to finish.
 
-The main goal of this project is to strengthen programming logic, object modeling, and understanding of complex rule-based systems.
+This project was built to deepen my understanding of object modeling, programming logic, and how to design systems governed by complex, interdependent rules.
 
 ## Objectives
-- Practice Object-Oriented Programming concepts
-- Improve problem-solving and logical reasoning
-- Simulate a real-world system with multiple rules and interactions
-- Understand how to model complex domains using code
+
+- Apply core Object-Oriented Programming concepts in a non-trivial domain
+- Strengthen problem-solving and logical reasoning skills
+- Model a real-world system with layered rules and state
+- Practice translating complex requirements into clean, maintainable code
 
 ## How It Works
-The game runs in the console and allows two players to play alternately.
-- Full chessboard representation (8x8 grid)
-- Standard chess pieces with individual movement rules
-- Turn-based gameplay (white vs black)
-- Validation of legal moves
-- Detection of:
-Check and Checkmate
-- Special moves:
-Castling, 
-En passant and Pawn promotion
 
-The system ensures that only valid moves are executed, enforcing the official chess rules throughout the match.
+The game runs entirely in the console, with two players alternating turns on a full 8x8 board.
+
+**Core mechanics:**
+- Complete board representation with all standard chess pieces
+- Individual movement logic for each piece type
+- Turn-based gameplay (White vs. Black)
+- Legal move validation — only valid moves can be executed
+- Check and checkmate detection
+
+**Special moves supported:**
+- Castling
+- En passant
+- Pawn promotion
+
+Every match is bound by the official rules of chess, ensuring a faithful and consistent playing experience.
+
+## Tech Stack
+
+- **Language:** C#
+- **Paradigm:** Object-Oriented Programming
+- **Interface:** Console / Terminal
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/zVilanova/JogoXadrez.git
+```
+2. Open `Projeto_Xadrez.sln` in Visual Studio (or your preferred .NET IDE).
+3. Build and run the project.
