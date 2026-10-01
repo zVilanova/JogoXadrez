@@ -1,45 +1,42 @@
-# ♟️ Chess Game — Console Application
+# ♟️ Jogo de Xadrez — Aplicação de Console
 
-A fully functional chess game built in C#, developed as a hands-on study of Object-Oriented Programming (OOP). The application simulates a complete match between two players directly in the terminal, enforcing the official rules of chess from start to finish.
+Um jogo de xadrez totalmente funcional construído em C#, desenvolvido como um estudo prático de Programação Orientada a Objetos (POO). A aplicação simula uma partida completa entre dois jogadores diretamente no terminal, aplicando as regras oficiais do xadrez do início ao fim.
 
-This project was built to deepen my understanding of object modeling, programming logic, and how to design systems governed by complex, interdependent rules.
+Este projeto foi construído para aprofundar meu entendimento sobre modelagem de objetos, lógica de programação e como projetar sistemas governados por regras complexas e interdependentes.
 
-## Objectives
+## Objetivos
 
-- Apply core Object-Oriented Programming concepts in a non-trivial domain
-- Strengthen problem-solving and logical reasoning skills
-- Model a real-world system with layered rules and state
-- Practice translating complex requirements into clean, maintainable code
+- Aplicar conceitos fundamentais de Programação Orientada a Objetos em um domínio não trivial
+- Fortalecer habilidades de resolução de problemas e raciocínio lógico
+- Modelar um sistema do mundo real com regras e estados em camadas
+- Praticar a tradução de requisitos complexos em código limpo e sustentável
 
-## How It Works
+## Como Funciona
 
-The game runs entirely in the console, with two players alternating turns on a full 8x8 board.
+O jogo roda inteiramente no console, com dois jogadores alternando turnos em um tabuleiro completo de 8x8.
 
-**Core mechanics:**
-- Complete board representation with all standard chess pieces
-- Individual movement logic for each piece type
-- Turn-based gameplay (White vs. Black)
-- Legal move validation — only valid moves can be executed
-- Check and checkmate detection
+**Mecânicas principais:**
+- Representação completa do tabuleiro com todas as peças de xadrez padrão
+- Lógica de movimento individual para cada tipo de peça
+- Jogabilidade baseada em turnos (Brancas vs. Pretas)
+- Validação de movimentos legais — apenas movimentos válidos podem ser executados
+- Detecção de xeque e xeque-mate
 
-**Special moves supported:**
-- Castling
+**Movimentos especiais suportados:**
+- Roque
 - En passant
-- Pawn promotion
+- Promoção de peão
 
-Every match is bound by the official rules of chess, ensuring a faithful and consistent playing experience.
+Cada partida é regida pelas regras oficiais do xadrez, garantindo uma experiência de jogo fiel e consistente.
 
-## Tech Stack
+## Tecnologias Utilizadas
 
-- **Language:** C#
-- **Paradigm:** Object-Oriented Programming
+- **Linguagem:** C#
+- **Paradigma:** Programação Orientada a Objetos
 - **Interface:** Console / Terminal
 
-## Getting Started
+## Primeiros Passos
 
-1. Clone the repository:
+1. Clone o repositório:
 ```bash
    git clone https://github.com/zVilanova/JogoXadrez.git
-```
-2. Open `Projeto_Xadrez.sln` in Visual Studio (or your preferred .NET IDE).
-3. Build and run the project.
